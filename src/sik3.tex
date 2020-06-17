@@ -143,17 +143,19 @@ basicstyle=\fontsize{6}{6}\selectfont\ttfamily,
   \section{Firewall routera}
     Firewall routera w budynku jest ustawiony tak, aby blokować komunikację między: \\
     - VLANem podsieci gościnnej, pozostałymi podsieciami (administracyjna, działowe) \\
-    - VLANami podsieci działów (między działami, do podsieci administracyjnej komunikacja ma nie być blokowana).
+    - VLANami podsieci działów (między działami, do podsieci administracyjnej komunikacja ma nie być blokowana). \\
+    Firewall blokuje wszystkie przychodzące połączenia ze świata zewnętrznego, ale pozwala na połączenia wychodzące.
+
 
 
   \section{Potrzebny sprzęt}
     - 1 router (z DHCP, firewallem) \\
     - 3 switche (z VLAN, STP) \\
-    - 15 switch (zwykłe) \\
+    - 15 switchy (zwykłe) \\
     - 14 access pointów \\
     - maszyna serwerowa pod serwer WWW \\
     - maszyna serwerowa pod serwer DNS \\
-    - 6 masyn serwerowych pod serwery dla każdej podsieci
+    - 6 maszyn serwerowych pod serwery dla każdej podsieci
 
 
   \section{Wypełnienie wymagań}
